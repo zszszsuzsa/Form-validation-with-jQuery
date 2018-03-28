@@ -1,0 +1,33 @@
+body .auth-user {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-weight: bold; }
+
+body .formContainer {
+  margin-top: 20px;
+  padding-top: 20px; }
+  body .formContainer form label {
+    padding-top: 20px; }
+  body .formContainer form input {
+    display: block;
+    margin-bottom: 5px; }
+  body .formContainer form .invalid {
+    border: 2px solid red; }
+  body .formContainer form span {
+    color: red; }
+  body .formContainer form .checkboxContainer {
+    float: right;
+    font-weight: normal;
+    padding-left: 50px;
+    margin-bottom: 12px; }
+    body .formContainer form .checkboxContainer label {
+      position: relative; }
+    body .formContainer form .checkboxContainer input {
+      right: 127px;
+      position: absolute;
+      cursor: pointer; }
+  body .formContainer form #submit {
+    margin-top: 20px; }
+  body .formContainer pre {
+    background: none;
+    border: none; }

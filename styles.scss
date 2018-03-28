@@ -1,0 +1,52 @@
+body{
+    .auth-user{
+        padding-top:20px;
+        padding-bottom: 20px;
+        font-weight: bold;
+    }
+    .formContainer{
+        margin-top:20px;
+        padding-top:20px;
+
+        form{
+            label{
+                padding-top:20px;
+            }
+            input{
+                display:block;
+                // width:250px;
+                margin-bottom: 5px;
+            }
+            .invalid {
+                border: 2px solid red;
+              }
+           
+            span{
+                color:red;
+              }
+            .checkboxContainer {
+                float:right;
+                font-weight: normal;
+                // position: relative;
+                padding-left: 50px;
+                margin-bottom: 12px;
+                label{
+                   position: relative;
+                }
+                input{
+                    right:127px;
+                    position: absolute;
+                    cursor: pointer;
+                }
+            }
+            
+            #submit{
+                margin-top:20px;
+            }
+        }
+        pre{
+            background:none;
+            border:none;
+        }
+    }
+}
